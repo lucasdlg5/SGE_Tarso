@@ -1,15 +1,18 @@
 # SGE_Tarso
 Projeto de WebSite para estudos de PHP e HTML
 
-## Idéias
+### Rodando o programa ainda em PHP
+Tenha instalado o Xamp contendo o banco de dados, apache, php e se vire!
+
+# Idéias
 Este sistema terá a finalidade de um sistema comunitário, onde será permitido o trabalho de varios desenvolvedores para impantar diversas APIs que desejarem, sendo que o sistema não terá um escopo definido, apesar de ter um nome como SGE Tarso. TOTALMENTE DE FINALIDADE PARA ESTUDOS!
 
-# Mudanças
+### Mudanças
 Inicialmente o sistema se encontra com a linguagem PHP e HTML, futuramente seria implantado em Banco de dados para puxar as informações.
 
 Preferencialmente será implantado em JAVA utilizando frameworks como Struts.
 
-# Preferencias
+### Preferencias
 Têm alguma idéia? Uma API legal? 
 
 # Desafio
