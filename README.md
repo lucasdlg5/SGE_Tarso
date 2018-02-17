@@ -3,6 +3,7 @@ Projeto de WebSite para estudos de PHP e HTML
 
 ### Rodando o programa ainda em PHP
 Tenha instalado o Xamp contendo o banco de dados, apache, php e se vire!
+(Do banco de dados vazio, faça uma conexão ao seu banco de dados via PHP, e crie uma conte de usuario para você, no Github deste projeto contém as tabelas de criaçao em SQL para você os criarem.)
 
 # Idéias
 Este sistema terá a finalidade de um sistema comunitário, onde será permitido o trabalho de varios desenvolvedores para impantar diversas APIs que desejarem, sendo que o sistema não terá um escopo definido, apesar de ter um nome como SGE Tarso. TOTALMENTE DE FINALIDADE PARA ESTUDOS!
