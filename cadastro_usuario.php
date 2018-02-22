@@ -1,3 +1,6 @@
+<!-- Pagina para cadastro de usuário para login -->
+<!-- AINDA NO FORMATO DO SystemOldSGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 

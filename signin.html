@@ -1,3 +1,6 @@
+<!-- Arquivo para login de ususário -->
+<!-- Verificar a possibilidade de criar um usuário estatico -->
+
 <!DOCTYPE html>
 <!-- saved from url=(0041)https://getbootstrap.com/examples/signin/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -63,18 +66,26 @@
     <div class="container">
 <!-- Realizar a troca da ação do formulario abaixo na qual redireciona para um script de verificação de conta para login -->
 <!-- Alterar: method="POST" action="controles/verifica_login.php"> -->
-      <form class="form-signin" method="POST" action="controles/verifica_login.php">
+<!-- Adicionado em Action o redirecionamento direto para a pagina -->
+      <form class="form-signin" method="POST" action="dashboard/home.html">
         <h2 class="form-signin-heading">Faça seu Login!</h2>
         <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" name="email_login" id="email_login">
+        <!-- Linha comentada por motivo de desabilitar a verificação se foi preenchido corretamente para que redirecione diretamente para o HOME sem necessidade de login -->
+  <!-- Descomentar para os campos de login aparecer -->
+         <!--<input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" name="email_login" id="email_login"> -->
         <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="" name="senha_login" id="senha_login">
+          <!-- Linha comentada por motivo de desabilitar a verificação se foi preenchido corretamente para que redirecione diretamente para o HOME sem necessidade de login -->
+          <!-- Descomentar para os campos de login aparecer -->
+        <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="" name="senha_login" id="senha_login"> -->
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Lembre-me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" value="entrarBtn" name="entrarBtn">Login</button>
+        <!-- Linha comentada para retirar ação do botão do login, somente redireciona para pagina HOME -->
+        <!-- Retirado  type="submit" para nao enviar nenhuma informação do formulario -->
+        <!-- <button class="btn btn-lg btn-primary btn-block" type="submit" value="entrarBtn" name="entrarBtn">Login</button> -->
+        <button class="btn btn-lg btn-primary btn-block" value="entrarBtn" href="dashboard/home.html">Login</button>
         <a class="btn btn-lg btn-primary btn-block" type="button"name="loginCadastro" href="cadastro_novo_usuario.php" >Cadastre-se</a>
       </form>
 

@@ -1,3 +1,5 @@
+<!-- Exemplo de conexão com o banco do projeto SystemOldSGE -->
+
 <?php
     $bdServidor = 'localhost';
 	$bdUsuario = 'root';
