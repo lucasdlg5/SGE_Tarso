@@ -47,10 +47,8 @@
 <body>
         <!-- CONEXÃO COM O BANCO DE DADOS PHP -->
 
-
-
-
-
+        <!-- Retirar a conexão via PHP -->
+        <!-- Verificar a possibilidade de inserir um login estatico -->
 <?php
 require_once 'controles/truncate_tabela_usuario.php';
 require_once 'controles/conexao_banco.php';
@@ -66,56 +64,7 @@ $sexo = isset ($_GET["sexo"])?$_GET["sexo"]:"Nao Informado";
 //FAZ A UTILIZAÇÃO DO ARQUIVO DE INSERT E VERIFICA OS CAMPOS ANTES DE CHAMAR O ARQUIVO
 if ($nome != "Nao Informado" && $login != "Nao Informado" && $senha != "Nao Informado" && $email != "Nao Informado" && $nascimento != "Nao Informado" && $idade != "Nao Informado" && $sexo != "Nao Informado") {
  require_once 'controles/insert_banco.php';
-} 
-
-
-/*
-$nomeErr = $loginErr = $senhaErr = $emailErr = $nascimentoErr = $idadeErr = $sexoErr ="";
-// REALIZA A VERIFICAÇÃO DOS CAMPOS OBRIGATORIOS 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  
-  //Verificar se o campo NOME está em branco.
-  if (empty($_POST["nome"])) {
-    $nomeErr = "É preciso preencher o campo Nome!!";
-  } 
-  
-  else {
-    $nome = test_input($_POST["nome"]);
-    // Checa se os campos contém espaços em branco
-    if (!preg_match("/^[a-zA-Z ]*$/",$nome)) {
-      $nomeErr = "Somente letras são permitidos neste campo."; 
-    }
-  
-  }
-  	//Checa o campo de LOGIN se está vazio.
-  	 if (empty($_POST["login"])) {
-    $loginErr = "É preciso preencher o campo Login!!";
-  } 
-  
-  //Checa o campo de SENHA se está vazio.
-   if (empty($_POST["senha"])) {
-    $nomeErr = "É preciso preencher o campo Senha!!";
-  }
-
- //Checa o campo de EMAIL verificando se está no formato correto
-  if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
-  } else {
-    $email = test_input($_POST["email"]);
-    // Checa o email se está no formato correto
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    }
-  }
-
-  
-  }
-// Checa o campo de sexo
-  if (empty($_POST["sexo"])) {
-    $sexoErr = "Este campo precisa estar selecionado!!";
-  } else {
-    $sexo = test_input($_POST["sexo"]);
-  }
-  */
+}
 
 ?>
 
@@ -147,28 +96,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-					
+
 					<ol class="breadcrumb">
 					  <li><a href="dashboard.php">Home</a></li>
-  					  <li class="active">Area de Cadastros</li> 
+  					  <li class="active">Area de Cadastros</li>
 					</ol>
 
-					
+
                         <h1>Cadastro de Usuario Novo SGE</h1>
-                        <p>Preencha os campos abaixo para cadastrar um novo usuario no banco de dados.</p>                        
+                        <p>Preencha os campos abaixo para cadastrar um novo usuario no banco de dados.</p>
                         <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Abrir Menu</a>
 <br>
 <br>
-          
+
 
 						<div class="input-group">
-						
-	<!-- #######INICIO######  -->	
-	
-		
+
+	<!-- #######INICIO######  -->
+
+
 <form id="form_cadastro">
 	<div class="input-group">
-    <form action="cadastro_usuario.php" method="post"> 
+    <form action="cadastro_usuario.php" method="post">
   <span class="input-group-addon" id="sizing-addon2">ID</span>
   <input name="ID" type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
 </div>
@@ -210,8 +159,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <input type="text" class="form-control" aria-label="" placeholder="SEXO MASCULINO" disabled="disabled" >
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
-  
-  
+
+
   <div class="col-lg-6">
     <div class="input-group">
       <span class="input-group-addon">
@@ -257,7 +206,7 @@ function limparFormulario() {
 
 
 <!-- Tentativa de truncate table via ajax -->
-<!-- 
+<!--
 <script>
 $(document).ready(function(){
     $('.truncate').click(function(){
@@ -276,7 +225,7 @@ $(document).ready(function(){
 
 	<!-- #######FIM######  -->
 
-					
+
                     </div>
                 </div>
             </div>
@@ -300,7 +249,7 @@ $(document).ready(function(){
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-	
+
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
@@ -309,7 +258,7 @@ $(document).ready(function(){
 	$("#wrapper").css('display', 'none');
 	$("#wrapper").fadeOut(5000);
 	$("#wrapper").fadeIn(5000);
-	
+
 
 	});
 	</script> -->
