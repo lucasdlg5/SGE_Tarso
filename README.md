@@ -9,16 +9,16 @@ A finalidade será de:
 -> Auxiliar na criação de conteúdo e indicações de cursos para as linguagens abordadas no sistema
 -> Despertar a atidude de programador identificando problemas e dificuldades dos outros desenvolvedores envolvidos.
 
-# Idéias
+## Idéias
 Será permitido o trabalho de vários desenvolvedores para implantar diversas APIs e tecnologias que desejarem, sendo que o sistema não terá um escopo definido, apesar de ter um nome como SGE Tarso. TOTALMENTE DE FINALIDADE PARA ESTUDOS!
 
-# Desafio
+## Desafio
 Implante a API no sistema e faça com que ele interaja com o que já foi implantado!
 Por exemplo: API de Clima do tempo, gera informações sobre chuvas. O sistema há uma API sobre Correios. Pegar os locais de que tenha chuva predominande, e apontar com uma mensagem simples (como do alert em JS) dizendo que terá chuva no horario especificado do "local de entrega"
 
 
 
-### Rodando o projeto antigo na pasta SystemOldSGE ainda em PHP
+# Rodando o projeto antigo na pasta SystemOldSGE ainda em PHP
 Este projeto havia sido criado anteriormente por mim para efeitos de estudos de Bootstrap, Html, PHP, JS e APIs como forma de ocupar o tempo ocioso colocando em prática os cursos online aprendidos e recomendação de amigos.  
 
 Tenha instalado o Xamp contendo o banco de dados, apache, PHP.
