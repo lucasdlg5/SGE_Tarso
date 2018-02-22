@@ -2,12 +2,12 @@
 A idéia da criação deste repositório através deste projeto tem como finalidade de estudar as diversas tecnologias impostas hoje no mercado de trabalho e faculdades, na qual servirá como apoio e compartilhamento de conhecimento.
 
 A finalidade será de:
--> Estudar o uso de versionamento Github: Como trabalhar com Branches, Merges, apontamento e resolução de Issues entre outros desenvolvedores, e as mais diversas funcionalidades do Github (Projeto, Wiki etc)
--> Formar e implantar uma coleção de idéias, implantar no sistema e pensar nas possibilidades de integrar como o que já foi implantado por outras pessoas, consumindo os outros dados gerados, aprendendo e utilizando as mais diversas linguagens do que forem utilizadas no programa
--> Implantar APIs no sistema de forma integrada com o restante (Como dito acima via Spoiler)
--> Colocar em prática as boas práticas de documentação de código e seu funcionamento
--> Auxiliar na criação de conteúdo e indicações de cursos para as linguagens abordadas no sistema
--> Despertar a atidude de programador identificando problemas e dificuldades dos outros desenvolvedores envolvidos.
+- Estudar o uso de versionamento Github: Como trabalhar com Branches, Merges, apontamento e resolução de Issues entre outros desenvolvedores, e as mais diversas funcionalidades do Github (Projeto, Wiki etc)
+- Formar e implantar uma coleção de idéias, implantar no sistema e pensar nas possibilidades de integrar como o que já foi implantado por outras pessoas, consumindo os outros dados gerados, aprendendo e utilizando as mais diversas linguagens do que forem utilizadas no programa
+- Implantar APIs no sistema de forma integrada com o restante (Como dito acima via Spoiler)
+- Colocar em prática as boas práticas de documentação de código e seu funcionamento
+- Auxiliar na criação de conteúdo e indicações de cursos para as linguagens abordadas no sistema
+- Despertar a atidude de programador identificando problemas e dificuldades dos outros desenvolvedores envolvidos.
 
 ## Idéias
 Será permitido o trabalho de vários desenvolvedores para implantar diversas APIs e tecnologias que desejarem, sendo que o sistema não terá um escopo definido, apesar de ter um nome como SGE Tarso. TOTALMENTE DE FINALIDADE PARA ESTUDOS!
